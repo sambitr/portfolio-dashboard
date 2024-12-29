@@ -18,6 +18,7 @@ Problem is that there is no readymade dashboard feature available in my broker a
 
 Created this python script using pandas, plotly, Flask, dash to fetch the required details from the 5 years P&L data. I am using Zerodha as my broker and it provides below columns:
 
+```
 Symbol
 ISIN
 Quantity
@@ -29,8 +30,9 @@ Previous Closing Price
 Open Quantity
 Open Quantity Type
 Open Value
-**Unrealized P&L**
+Unrealized P&L
 Unrealized P&L Pct.
+```
 
 The yearwise CSV file does not have year value in it. Hence created below dictionary to add it to identify the year associated with it.
 
